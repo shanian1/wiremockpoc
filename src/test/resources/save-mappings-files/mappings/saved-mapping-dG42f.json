@@ -1,0 +1,10 @@
+{
+  "request" : {
+    "urlPattern" : "/hybris/site/v1/cartcalcv1/sites/canada/payment",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "proxyBaseUrl" : "https://api.yaas.io"
+  }
+}

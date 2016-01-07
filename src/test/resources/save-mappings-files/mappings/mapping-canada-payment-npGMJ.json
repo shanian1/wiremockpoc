@@ -1,0 +1,24 @@
+{
+  "request" : {
+    "url" : "/hybris/site/v1/cartcalcv1/sites/canada/payment",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 401,
+    "bodyFileName" : "body-canada-payment-npGMJ.json",
+    "headers" : {
+      "Access-Control-Allow-Headers" : "host,user-agent,accept,accept-encoding,x-cf-applicationid,x-cf-instanceid,x-cf-requestid,x-forwarded-for,x-forwarded-port,x-forwarded-proto,x-request-start,x-vcap-request-id,hybris-request-id,hybris-hop",
+      "Access-Control-Allow-Methods" : "GET, PUT, POST, DELETE",
+      "Access-Control-Allow-Origin" : "*",
+      "Access-Control-Expose-Headers" : "content-type, content-length, content-location, content-disposition, hybris-count, warning, link, location",
+      "Access-Control-Max-Age" : "3628800",
+      "Content-Type" : "application/json; charset=utf-8",
+      "Date" : "Thu, 07 Jan 2016 03:32:07 GMT",
+      "Etag" : "W/\"9c-c260fba\"",
+      "Hybris-Request-Id" : "33a7b06e-22f3-46a2-bada-a083f8d98a5a",
+      "X-Cf-Requestid" : "5c14fdbd-71d0-4120-6547-24d73d253e39",
+      "Content-Length" : "156",
+      "Connection" : "keep-alive"
+    }
+  }
+}
