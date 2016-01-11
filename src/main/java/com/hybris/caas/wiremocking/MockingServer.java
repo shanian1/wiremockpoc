@@ -67,17 +67,17 @@ public class MockingServer
 		this.mockManager = new WireMockServer(options);
 		this.mockManager.enableRecordMappings(new SingleRootFileSource(fileSourceRoot+"/mappings"), new SingleRootFileSource(fileSourceRoot+"/_files"));
 
-
 	}
 
-	public boolean verify(){
+	public boolean verify(int a){
 
 		try
 		{
-			this.mockManager.verify(2, getRequestedFor(urlMatching("/hello/test")));
+			this.mockManager.verify(a, getRequestedFor(urlMatching("/hybris/site/v1/cartcalcv1/sites/canada/payment")));
 		}catch(VerificationException e){
 			return false;
 		}
+
 	return true;
 
 	}

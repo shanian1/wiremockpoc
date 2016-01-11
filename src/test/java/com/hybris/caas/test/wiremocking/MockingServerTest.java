@@ -36,6 +36,12 @@ public class MockingServerTest
 		//RestAssured.get(REQUEST_URL + "/site-mock-web-1.0.0-SNAPSHOT/cartcalcv1/sites/canada/payment/stripe");
 
 		RestAssured.get(REQUEST_URL +"/hybris/site/v1/cartcalcv1/sites/canada/payment");
+		System.out.println(server.verify(1));
+		server.resetToDefault();
+		RestAssured.get(REQUEST_URL +"/hybris/site/v1/cartcalcv1/sites/canada/payment");
+		System.out.println(server.verify(2));
+
+
 
 
 		//RestAssured.post(REQUEST_URL + "/hello/carts").then().assertThat().statusCode(200);

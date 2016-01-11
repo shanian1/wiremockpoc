@@ -1,1 +1,0 @@
-{"status":401,"message":"Unauthorized: Bearer TOKEN is missing","type":"insufficient_credentials","moreInfo":"https://api.yaas.io/patterns/errortypes.html"}
